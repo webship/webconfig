@@ -1,6 +1,6 @@
 {
   "name": "drupal/webconfig",
-  "description": "Most needed configuration management tools.",
+  "description": "Have the most needed configuration management modules with basic config.",
   "type": "drupal-module",
   "homepage": "https://www.drupal.org/project/webdev",
   "license": "GPL-2.0-or-later",

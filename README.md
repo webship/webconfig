@@ -1,6 +1,6 @@
 # Web Config
 
-Most needed configuration management tools.
+Have the most needed configuration management modules with basic config.
 
 * [Configuration Update Manager](https://www.drupal.org/project/config_update) : @stable @enabled
 * [Config Filter](https://www.drupal.org/project/config_filter) : @stable @enabled @enabled

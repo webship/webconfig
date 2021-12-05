@@ -1,6 +1,6 @@
 name: Web Config
 type: module
-description: 'Most needed configuration management tools.'
+description: 'Have the most needed configuration management modules with basic config.'
 core_version_requirement: ^9.0
 dependencies:
   - drupal:config
