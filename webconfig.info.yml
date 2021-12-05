@@ -1,0 +1,12 @@
+name: Web Config
+type: module
+description: 'Most needed configuration management tools.'
+core_version_requirement: ^9.0
+dependencies:
+  - drupal:config
+  - config_update:config_update
+  - config_update:config_update_ui
+  - config_filter:config_filter
+  - config_normalizer:config_normalizer
+  - config_partial_export:config_partial_export
+  - config_import_single:config_import_single

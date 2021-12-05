@@ -1,0 +1,37 @@
+{
+  "name": "drupal/webconfig",
+  "description": "Most needed configuration management tools.",
+  "type": "drupal-module",
+  "homepage": "https://www.drupal.org/project/webdev",
+  "license": "GPL-2.0-or-later",
+  "minimum-stability": "dev",
+  "authors": [
+    {
+      "name": "Webship",
+      "homepage": "http://webship.org",
+      "role": "Maintainer"
+    }
+  ],
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/webdev",
+    "source": "http://cgit.drupalcode.org/webdev"
+  },
+  "repositories": {
+    "drupal": {
+      "type": "composer",
+      "url": "https://packages.drupal.org/8"
+    }
+  },
+  "require": {
+    "drupal/core": "~9.0",
+    "drupal/config_update": "@stable",
+    "drupal/config_filter": "@stable",
+    "drupal/config_normalizer": "@stable",
+    "drupal/config_split": "@stable",
+    "drupal/config_ignore": "@stable",
+    "drupal/config_inspector": "@stable",
+    "drupal/config_rewrite": "@stable",
+    "drupal/config_partial_export": "@stable",
+    "drupal/config_import_single": "@stable"
+  }
+}
