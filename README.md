@@ -2,12 +2,12 @@
 
 Have the most needed configuration management modules with basic config.
 
-* [Configuration Update Manager](https://www.drupal.org/project/config_update) : @stable @enabled
-* [Config Filter](https://www.drupal.org/project/config_filter) : @stable @enabled @enabled
-* [Configuration Normalizer](https://www.drupal.org/project/config_normalizer) : @stable @enabled
-* [Config Partial Export](https://www.drupal.org/project/config_partial_export) : @stable @enabled
-* [Config import single](https://www.drupal.org/project/config_import_single) : @stable @enabled
-* [Configuration Split](https://www.drupal.org/project/config_split) : @stable
-* [Config Ignore](https://www.drupal.org/project/config_ignore) : @stable
-* [Configuration inspector](https://www.drupal.org/project/config_inspector) : @stable
-* [Configuration Rewrite](https://www.drupal.org/project/config_rewrite) : @stable
+* [Configuration Update Manager](https://www.drupal.org/project/config_update) : `~1.0`
+* [Config Filter](https://www.drupal.org/project/config_filter) : `~2.0`
+* [Configuration Normalizer](https://www.drupal.org/project/config_normalizer) : `~2.0`
+* [Configuration Split](https://www.drupal.org/project/config_split) : `~2.0`
+* [Config Ignore](https://www.drupal.org/project/config_ignore) : `~3.0`
+* [Configuration inspector](https://www.drupal.org/project/config_inspector) : `~2.0`
+* [Configuration Rewrite](https://www.drupal.org/project/config_rewrite) : `~1.0`
+* [Config Partial Export](https://www.drupal.org/project/config_partial_export) : `~2.0`
+* [Config import single](https://www.drupal.org/project/config_import_single) : `~1.0`

@@ -1,7 +1,7 @@
 name: Web Config
 type: module
 description: 'Have the most needed configuration management modules with basic config.'
-core_version_requirement: ^9.0
+core_version_requirement: ^10
 dependencies:
   - drupal:config
   - config_update:config_update
