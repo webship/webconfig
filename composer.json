@@ -24,6 +24,7 @@
   },
   "require": {
     "drupal/core": "^10",
+    "vardot/entity-definition-update-manager": "~1.0",
     "drupal/config_update": "~1.0",
     "drupal/config_filter": "~2.0",
     "drupal/config_normalizer": "~2.0",
