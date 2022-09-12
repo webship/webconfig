@@ -24,14 +24,15 @@
   },
   "require": {
     "drupal/core": "~9.0",
-    "drupal/config_update": "@stable",
-    "drupal/config_filter": "@stable",
-    "drupal/config_normalizer": "@stable",
-    "drupal/config_split": "@stable",
-    "drupal/config_ignore": "@stable",
-    "drupal/config_inspector": "@stable",
-    "drupal/config_rewrite": "@stable",
-    "drupal/config_partial_export": "@stable",
-    "drupal/config_import_single": "@stable"
+    "vardot/entity-definition-update-manager": "~1.0",
+    "drupal/config_update": "~1.0",
+    "drupal/config_filter": "~2.0",
+    "drupal/config_normalizer": "~2.0",
+    "drupal/config_split": "~2.0",
+    "drupal/config_ignore": "~3.0",
+    "drupal/config_inspector": "~2.0",
+    "drupal/config_rewrite": "~1.0",
+    "drupal/config_partial_export": "~1.0",
+    "drupal/config_import_single": "~1.0"
   }
 }
