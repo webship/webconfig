@@ -2,7 +2,7 @@
 
 Have the most needed configuration management modules with basic config.
 
-* [Configuration Update Manager](https://www.drupal.org/project/config_update) : `~1.0`
+* [Configuration Update Manager](https://www.drupal.org/project/config_update) : `2.0.x-dev`
 * [Config Filter](https://www.drupal.org/project/config_filter) : `~2.0`
 * [Configuration Normalizer](https://www.drupal.org/project/config_normalizer) : `~2.0`
 * [Configuration Split](https://www.drupal.org/project/config_split) : `~2.0`
