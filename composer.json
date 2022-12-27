@@ -13,8 +13,8 @@
     }
   ],
   "support": {
-    "issues": "https://www.drupal.org/project/issues/webdev",
-    "source": "http://cgit.drupalcode.org/webdev"
+    "issues": "https://www.drupal.org/project/issues/webconfig",
+    "source": "http://cgit.drupalcode.org/webconfig"
   },
   "repositories": {
     "drupal": {
@@ -33,7 +33,6 @@
     "drupal/config_ignore": "~3.0",
     "drupal/config_inspector": "~2.0",
     "drupal/config_rewrite": "~1.0",
-    "drupal/config_partial_export": "~1.0",
     "drupal/config_import_single": "~1.0"
   }
 }

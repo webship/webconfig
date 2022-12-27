@@ -9,5 +9,4 @@ Have the most needed configuration management modules with basic config.
 * [Config Ignore](https://www.drupal.org/project/config_ignore) : `~3.0`
 * [Configuration inspector](https://www.drupal.org/project/config_inspector) : `~2.0`
 * [Configuration Rewrite](https://www.drupal.org/project/config_rewrite) : `~1.0`
-* [Config Partial Export](https://www.drupal.org/project/config_partial_export) : `~2.0`
 * [Config import single](https://www.drupal.org/project/config_import_single) : `~1.0`
