@@ -7,5 +7,4 @@ dependencies:
   - config_update:config_update
   - config_update:config_update_ui
   - config_filter:config_filter
-  - config_normalizer:config_normalizer
   - config_import_single:config_import_single
