@@ -1,8 +1,8 @@
 # Web Config
 
-Have the most needed configuration management modules with basic config.
+Web Configuration management. Most needed configuration management modules.
 
-* [Configuration Update Manager](https://www.drupal.org/project/config_update) : `2.0.x-dev`
+* [Configuration Update Manager](https://www.drupal.org/project/config_update) : `~2.0`
 * [Config Filter](https://www.drupal.org/project/config_filter) : `~2.0`
 * [Configuration Split](https://www.drupal.org/project/config_split) : `~2.0`
 * [Config Ignore](https://www.drupal.org/project/config_ignore) : `~3.0`

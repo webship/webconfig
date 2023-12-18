@@ -1,6 +1,6 @@
 {
   "name": "drupal/webconfig",
-  "description": "Have the most needed configuration management modules with basic config.",
+  "description": "Web Configuration management. Most needed configuration management modules.",
   "type": "drupal-module",
   "homepage": "https://www.drupal.org/project/webdev",
   "license": "GPL-2.0-or-later",
@@ -23,10 +23,11 @@
     }
   },
   "require": {
-    "drupal/core": "~10.1.0",
+    "drupal/core": "~10.2.0",
+    "drupal/webpatches": "~10.0",
     "vardot/entity-definition-update-manager": "~1.0",
     "vardot/module-installer-factory": "~1.0",
-    "drupal/config_update": "2.0.x-dev",
+    "drupal/config_update": "~2.0",
     "drupal/config_filter": "~2.0",
     "drupal/config_split": "~2.0",
     "drupal/config_ignore": "~3.0",
