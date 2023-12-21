@@ -8,4 +8,4 @@ Web Configuration management. Most needed configuration management modules.
 * [Config Ignore](https://www.drupal.org/project/config_ignore) : `~3.0`
 * [Configuration inspector](https://www.drupal.org/project/config_inspector) : `~2.0`
 * [Configuration Rewrite](https://www.drupal.org/project/config_rewrite) : `~1.0`
-* [Config import single](https://www.drupal.org/project/config_import_single) : `~1.0`
+* [Config import single](https://www.drupal.org/project/config_import_single) : `~2.0.0`
