@@ -1,7 +1,7 @@
 name: Web Config
 type: module
 description: Web Configuration management. Most needed configuration management modules.'
-core_version_requirement: ~10.2.0
+core_version_requirement: ~10.3.0
 dependencies:
   - drupal:config
   - config_update:config_update
