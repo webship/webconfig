@@ -23,7 +23,7 @@
     }
   },
   "require": {
-    "drupal/core": "~10.3.0",
+    "drupal/core": "~10.4.0",
     "drupal/webpatches": "~10.0",
     "vardot/entity-definition-update-manager": "~1.0",
     "vardot/module-installer-factory": "~1.0",
