@@ -1,0 +1,15 @@
+name: Web Config - Default
+description: A recipe to manage default installed modules, configs and permissions.
+type: install
+install:
+  - config
+  - config_update
+  - config_update_ui
+  - config_filter
+  - config_import_single
+config:
+  strict: false
+  import:
+    config_update: '*'
+    config_filter: '*'
+    config_import_single: '*'
