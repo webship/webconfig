@@ -6,10 +6,18 @@ install:
   - config_update
   - config_update_ui
   - config_filter
+  - config_split
+  - config_ignore
+  - config_inspector
+  - config_rewrite
   - config_import_single
 config:
   strict: false
   import:
     config_update: '*'
     config_filter: '*'
+    config_split: '*'
+    config_ignore: '*'
+    config_inspector: '*'
+    config_rewrite: '*'
     config_import_single: '*'
