@@ -11,6 +11,8 @@ install:
   - config_inspector
   - config_rewrite
   - config_import_single
+  # Last, after its dependencies: the Web Config module itself.
+  - webconfig
 config:
   strict: false
   import:
