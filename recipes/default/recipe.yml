@@ -5,7 +5,6 @@ install:
   - config
   - config_update
   - config_update_ui
-  - config_filter
   - config_split
   - config_ignore
   - config_inspector
@@ -17,7 +16,6 @@ config:
   strict: false
   import:
     config_update: '*'
-    config_filter: '*'
     config_split: '*'
     config_ignore: '*'
     config_inspector: '*'
