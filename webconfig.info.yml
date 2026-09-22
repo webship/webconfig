@@ -2,3 +2,17 @@ name: Web Config
 type: module
 description: 'Web Configuration management. Most needed configuration management modules.'
 core_version_requirement: ^11.4 || ^12
+# The modules the default recipe installs. Declared here, so Drupal installs
+# them in the same batch before hook_install() applies the recipe: installing
+# them from inside hook_install() would rebuild the container and leave the
+# config installer of the outer batch in syncing mode, so later modules in the
+# batch would lose their default config entities.
+dependencies:
+  - drupal:config
+  - config_update:config_update
+  - config_update:config_update_ui
+  - config_split:config_split
+  - config_ignore:config_ignore
+  - config_inspector:config_inspector
+  - config_rewrite:config_rewrite
+  - config_import_single:config_import_single
