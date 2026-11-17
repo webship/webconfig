@@ -1,8 +1,14 @@
+@install-profile
 Feature: Configuration Update Manager report
   As an admin user
   I want to use the Configuration Update Manager reports
   So that I can compare active configuration with the values shipped by
   modules, themes, and install profiles
+
+  The report lists the configuration of the install profile too: it needs a
+  site that still has one. A site whose installer uninstalls itself (a
+  Webship site) answers these pages with an error, so a run there leaves the
+  feature out.
 
   Background:
     Given I am a logged in user with the "Webmaster" user

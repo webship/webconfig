@@ -58,21 +58,28 @@ npx playwright install chromium
 export LAUNCH_URL=https://webship-site.ddev.site
 export NODE_EXTRA_CA_CERTS="$(mkcert -CAROOT)/rootCA.pem"
 export DRUPAL_LOGIN_WAIT=3000
-yarn test --tags "not @wip"
+yarn test --tags "not @wip and not @install-profile and not @config-schema"
 ```
 
 `DRUPAL_LOGIN_WAIT` is for the login form of the Webship site, which Honeypot
 protects with a time limit; a site without it needs none.
 `NODE_EXTRA_CA_CERTS` lets Node.js trust DDEV's HTTPS certificate for the
 steps that send a request outside the browser.
+`@install-profile` marks the updates report of Configuration Update Manager:
+the report lists the install profile's configuration too, and a Webship
+site has none (its installer uninstalls itself), so the page answers with
+an error there. `@config-schema` marks the configuration inspector: its
+overview validates every configuration object, and one of the AI modules
+of a Webship site gives a schema constraint an option the validator does
+not know. A run on a Webship site leaves both out; CI runs them.
 `yarn test:dry` checks that every step resolves to one definition, without
 a browser.
 
 ### 4. What green looks like
 
 ```
-22 scenarios (22 passed)
-76 steps (76 passed)
+19 scenarios (19 passed)
+64 steps (64 passed)
 ```
 
 The HTML report is written to `tests/reports/cucumber_report.html`. A failed

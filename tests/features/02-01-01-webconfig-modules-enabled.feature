@@ -12,10 +12,10 @@ Feature: Web Config bundled modules are enabled
      And the "config_update" module should be installed
      And the "config" module should be installed
 
-  Scenario: Every bundled configuration management admin route is reachable
+  # The updates report and the configuration inspector have their own
+  # features (02-03-01, 02-04-01), tagged for the sites they need.
+  Scenario: The configuration management admin routes are reachable
     Then the response status of "/admin/config/development/configuration" should be 200
-     And the response status of "/admin/config/development/configuration/report" should be 200
-     And the response status of "/admin/reports/config-inspector" should be 200
      And the response status of "/admin/config/development/configuration/config-split" should be 200
      And the response status of "/admin/config/development/configuration/ignore" should be 200
      And the response status of "/admin/config/development/configuration/single/export" should be 200
