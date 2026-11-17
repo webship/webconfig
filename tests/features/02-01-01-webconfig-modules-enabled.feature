@@ -8,10 +8,9 @@ Feature: Web Config bundled modules are enabled
     Given I am a logged in user with the "Webmaster" user
 
   Scenario: Modules report page lists Web Config as enabled
-    When I navigate to "/admin/modules"
-    Then I should see "Web Config"
-     And I should see "Configuration Update"
-     And I should see "Configuration Manager"
+    Then the "webconfig" module should be installed
+     And the "config_update" module should be installed
+     And the "config" module should be installed
 
   Scenario: Every bundled configuration management admin route is reachable
     Then the response status of "/admin/config/development/configuration" should be 200

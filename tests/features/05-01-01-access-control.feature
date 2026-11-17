@@ -5,25 +5,20 @@ Feature: Access control for configuration management admin pages
 
   Scenario: Anonymous user cannot access the configuration synchronize page
     Given I am an anonymous user
-    When I navigate to "/admin/config/development/configuration"
-    Then I should see "Access denied"
+    Then I should be denied access to "/admin/config/development/configuration"
 
   Scenario: Anonymous user cannot access the single export form
     Given I am an anonymous user
-    When I navigate to "/admin/config/development/configuration/single/export"
-    Then I should see "Access denied"
+    Then I should be denied access to "/admin/config/development/configuration/single/export"
 
   Scenario: Anonymous user cannot access the configuration update report
     Given I am an anonymous user
-    When I navigate to "/admin/config/development/configuration/report"
-    Then I should see "Access denied"
+    Then I should be denied access to "/admin/config/development/configuration/report"
 
   Scenario: Anonymous user cannot access the config split list
     Given I am an anonymous user
-    When I navigate to "/admin/config/development/configuration/config-split"
-    Then I should see "Access denied"
+    Then I should be denied access to "/admin/config/development/configuration/config-split"
 
   Scenario: Authenticated user cannot access the configuration synchronize page
     Given I am a logged in user with the "Authenticated user" user
-    When I navigate to "/admin/config/development/configuration"
-    Then I should see "Access denied"
+    Then I should be denied access to "/admin/config/development/configuration"
